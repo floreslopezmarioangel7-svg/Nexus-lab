@@ -163,5 +163,5 @@
   });
   window.addEventListener("resize", resize);
   if ("ResizeObserver" in window) new ResizeObserver(resize).observe(canvas.parentElement);
-  switchLab("particles"); resize(); tick();
+  resize(); switchLab("particles"); tick();
 })();
