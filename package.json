@@ -1,0 +1,9 @@
+{
+  "name": "nexus-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio científico interactivo, adaptado a móviles.",
+  "scripts": {
+    "check": "node --check app.js"
+  }
+}
